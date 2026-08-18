@@ -100,7 +100,6 @@ VLA를 이해하기 위한 기본기를 만든다.
 ### 직접 해볼 것
 
 * [x] Scaled Dot-Product Attention 구현
-* [ ] Multi-Head Attention 구현
 * [ ] 간단한 ViT 구조 구현
 * [ ] CLIP inference
 * [ ] Decision Transformer 구조 분석
