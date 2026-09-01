@@ -38,7 +38,7 @@ ViT 이전까지의 비전 모델은 정해진 클래스 목록으로 학습됐�
 
 ### 2.3 CLIP의 핵심 구조
 
-![Constrastive_learning](../images/constrastive_learning.png)
+![contrastive_learning](../images/contrastive_learning.png)
 
 1) Image Encoder
 이미지를 입력받아 벡터로 변환한다.
