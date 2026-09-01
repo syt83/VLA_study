@@ -11,8 +11,6 @@
 |---|---|
 | Zero-shot | 학습 데이터에 없던 task도 추가학습 없이 바로 처리하는 능력 |
 | InfoNCE Loss | CLIP이 사용하는 contrastive 손실 함수 |
-| [용어 3] | [쉽게 설명] |
-| [용어 4] | [쉽게 설명] |
 
 ---
 
@@ -40,7 +38,7 @@ ViT 이전까지의 비전 모델은 정해진 클래스 목록으로 학습됐�
 
 ### 2.3 CLIP의 핵심 구조
 
-![Constrastive_learning](../images/constrastive_learning.svg)
+![Constrastive_learning](../images/constrastive_learning.png)
 
 1) Image Encoder
 이미지를 입력받아 벡터로 변환한다.
