@@ -1,4 +1,4 @@
-# Day 02 — ViT code review
+# Day 03 — ViT code review
 
 # 사전학습된 ViT-Base 모델을 이용한 이미지 분류 실습
 
@@ -42,7 +42,7 @@ Classification Head
 
 ## 2. 전처리
 
-```
+```python
 inputs = processor(
     images=image,
     return_tensors="pt"
@@ -57,7 +57,7 @@ torch.Size([1, 3, 224, 224])
 
 ## 3. ViT 추론
 
-```
+```python
 with torch.no_grad():
     outputs = model(**inputs)
 ```
@@ -107,7 +107,7 @@ outputs.logits
 ```
 
 코드에서
-```
+```python
 predicted_idx = outputs.logits.argmax(-1).item()
 
 실행한 후 각 부분은 : 
@@ -135,7 +135,7 @@ predicted_idx
 ```
 
 그리고 
-```
+```python
 model.config.id2label[predicted_idx] 을 실행하면
 
 1 → "dog"
@@ -151,7 +151,7 @@ Egyptian cat
 
 ## 5. Softmax
 
-```
+```python
 probs = F.softmax(
     outputs.logits,
     dim=-1
@@ -177,7 +177,7 @@ Softmax
 ---
 
 ## 6. Top-5 출력
-```
+```python
 top5 = probs[0].topk(5)
 ```
 가장 높은 확률 5개를 가져온다.  
