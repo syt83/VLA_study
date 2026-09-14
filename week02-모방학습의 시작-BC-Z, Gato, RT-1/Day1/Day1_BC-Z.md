@@ -44,6 +44,8 @@ $$
 - 새로운 task에 일반화가 안 된다.
 -> 학습 시 못 본 task가 들어오면 처음부터 다시 학습해야 한다.
 
+---
+
 ## 3. BC-Z
 BC-Z : Behavior Cloning with Latent Goals
 
@@ -120,6 +122,8 @@ State + Z₂
 > 즉, Z는 어떤 행동을 해야 하는지 방향을 잡아주는 조건이 된다.
 
 따라서 BC-Z에서 Z를 State와 함께 사용하는 것이 Task Conditioning의 핵심이다.
+
+---
 
 ## 4. VLA가 여기서 받은 것
 VLA의 정의가 비전과 언어 등의 정보를 입력으로 받아 로봇의 행동을 출력하는 모델이다.  

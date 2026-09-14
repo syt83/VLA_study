@@ -100,15 +100,13 @@ VLA를 이해하기 위한 기본기를 만든다.
 ### 직접 해볼 것
 
 * [x] Scaled Dot-Product Attention 구현
-* [ ] 간단한 ViT 구조 구현
-* [ ] CLIP inference
-* [ ] Decision Transformer 구조 분석
+* [x] 간단한 ViT 구조 구현
+* [x] CLIP inference
+* [x] Decision Transformer 구조 분석
 
 ### 핵심 질문
 
 > Transformer가 어떻게 이미지와 언어를 처리할 수 있고, 더 나아가 행동까지 처리할 수 있을까?
-
-[→ Week 01](./week01-transformer/)
 
 ---
 
@@ -129,15 +127,12 @@ VLA를 이해하기 위한 기본기를 만든다.
 
 ### 직접 해볼 것
 
-* [ ] 간단한 Behavior Cloning 구현
-* [ ] Observation → Action 구조 구현
-* [ ] RT-1 구조 분석
+* [x] Observation → Action 구조 구현
+* [x] RT-1 구조 분석
 
 ### 핵심 질문
 
 > 사람이 로봇을 조작해서 만든 데이터를 이용해 로봇이 행동을 배울 수 있을까?
-
-[→ Week 02](./week02-imitation-learning/)
 
 ---
 
